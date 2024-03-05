@@ -20,8 +20,7 @@ function player_block_state(){
 		}
 	}
 	if jump {
-		state = STATES.JUMP;
-		vsp = jump_spd;
+		jumped()
 	}
 	
 	// apply movement

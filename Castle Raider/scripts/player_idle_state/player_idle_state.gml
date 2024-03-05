@@ -12,8 +12,7 @@ function player_idle_state(){
 		image_index = 0;
 	}
 	if jump {
-		state = STATES.JUMP;
-		vsp = jump_spd;
+		jumped()
 	}
 	if block {
 		state = STATES.BLOCK;

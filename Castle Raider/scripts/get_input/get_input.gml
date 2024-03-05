@@ -7,4 +7,5 @@ function get_input(){
 	attack = keyboard_check_pressed(vk_shift);
 	jump = keyboard_check_pressed(vk_space);
 	block = keyboard_check(ord("Z"));
+	jump_held = keyboard_check(vk_space);
 }
