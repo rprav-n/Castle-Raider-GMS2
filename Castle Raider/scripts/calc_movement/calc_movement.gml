@@ -2,6 +2,7 @@
 function calc_movement(){
 	var _dir = right - left;
 	hsp += _dir * walk_spd;
+	vsp += global.grav;
 
 	hsp = lerp(hsp, 0, drag);
 
