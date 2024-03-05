@@ -56,6 +56,7 @@
     {"id":{"name":"t_collisions","path":"tilesets/t_collisions/t_collisions.yy",},},
     {"id":{"name":"player_jump_state","path":"scripts/player_jump_state/player_jump_state.yy",},},
     {"id":{"name":"collision","path":"scripts/collision/collision.yy",},},
+    {"id":{"name":"on_ground","path":"scripts/on_ground/on_ground.yy",},},
     {"id":{"name":"player_crouch_state","path":"scripts/player_crouch_state/player_crouch_state.yy",},},
     {"id":{"name":"player_block_state","path":"scripts/player_block_state/player_block_state.yy",},},
     {"id":{"name":"macros","path":"scripts/macros/macros.yy",},},

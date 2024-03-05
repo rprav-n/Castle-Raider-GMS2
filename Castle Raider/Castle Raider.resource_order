@@ -34,6 +34,7 @@
     {"name":"s_player_block","order":6,"path":"sprites/s_player_block/s_player_block.yy",},
     {"name":"player_jump_state","order":2,"path":"scripts/player_jump_state/player_jump_state.yy",},
     {"name":"collision","order":2,"path":"scripts/collision/collision.yy",},
+    {"name":"on_ground","order":6,"path":"scripts/on_ground/on_ground.yy",},
     {"name":"player_crouch_state","order":5,"path":"scripts/player_crouch_state/player_crouch_state.yy",},
     {"name":"player_block_state","order":4,"path":"scripts/player_block_state/player_block_state.yy",},
     {"name":"macros","order":5,"path":"scripts/macros/macros.yy",},
