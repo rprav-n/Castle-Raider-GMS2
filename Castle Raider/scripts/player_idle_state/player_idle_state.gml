@@ -6,7 +6,7 @@ function player_idle_state(){
 	calc_movement();
 	
 	// check state
-	if hsp != 0 state = STATES.WALK;
+	block_check();
 	if attack {
 		state = STATES.ATTACK;
 		image_index = 0;
@@ -14,10 +14,7 @@ function player_idle_state(){
 	if jump {
 		jumped()
 	}
-	if block {
-		state = STATES.BLOCK;
-		hsp = 0;
-	}
+	
 
 	// apply movement
 	collision();

@@ -56,3 +56,12 @@ sprites_array[STATES.ATTACK] = s_player_attack;
 sprites_array[STATES.BLOCK] = s_player_block;
 sprites_array[STATES.CROUCH] = s_player_crouch;
 sprites_array[STATES.CROUCH_BLOCK] = s_player_crouch_block;
+
+
+mask_array[STATES.IDLE] = s_player_idle;
+mask_array[STATES.WALK] = s_player_idle;
+mask_array[STATES.JUMP] = s_player_idle;
+mask_array[STATES.ATTACK] = s_player_idle;
+mask_array[STATES.BLOCK] = s_player_idle;
+mask_array[STATES.CROUCH] = s_player_crouch;
+mask_array[STATES.CROUCH_BLOCK] = s_player_crouch;

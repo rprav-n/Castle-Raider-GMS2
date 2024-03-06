@@ -29,6 +29,10 @@ function player_walk_state(){
 		state = STATES.BLOCK;
 		hsp = 0;
 	}
+	if down {
+		state = STATES.CROUCH;
+		hsp = 0;
+	}
 	
 	// apply movement
 	collision();

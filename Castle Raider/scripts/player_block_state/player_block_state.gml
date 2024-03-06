@@ -6,19 +6,12 @@ function player_block_state(){
 	calc_movement();
 	
 	// check state
+	block_check();
 	if attack {
 		state = STATES.ATTACK;
 		image_index = 0;
 	}
-	if block {
-		hsp = 0;
-	} else {
-		if hsp != 0 {
-			if !on_ground() state = STATES.JUMP else state = STATES.WALK;
-		} else {
-			state = STATES.IDLE;
-		}
-	}
+	
 	if jump {
 		jumped()
 	}
